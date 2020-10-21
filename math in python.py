@@ -15,6 +15,13 @@ print(math.e)
 b=-980.787
 print(abs(b)) # positive value
 
+l = max(12,3,5) # max build in math function
+print(l)
+
+l = min(12,3,5) # min build in math function
+print(l)
+
+
 
 
 

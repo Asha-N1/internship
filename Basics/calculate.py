@@ -1,16 +1,16 @@
 # creating calculate module
 
-def add(a,b): # addition  function
-    return a + b
+def add(num1,num2): # addition  function
+    return num1 + num2
 
 
-def sub(a, b): # subtraction function
-    return a - b
+def sub(num1,num2): # subtraction function
+    return num1 - num2
 
 
-def mul(a, b): # multiplication function
-    return a * b
+def mul(num1,num2): # multiplication function
+    return num1 * num2
 
 
-def div(a, b): # division function
-    return a / b
+def div(num1,num2): # division function
+    return num1 / num2

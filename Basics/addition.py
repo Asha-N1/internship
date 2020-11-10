@@ -1,11 +1,19 @@
 # This program adds two numbers
-def addition():
-    num1 = 30
-    num2 = 20
-
+def addition(num1,num2):
     # Add two numbers
     sum = num1 + num2
-
-    # Display the sum
     print("sum of " ,num1, " and ",num2, "=",sum)
-addition()
+   
+
+# main function
+def main():
+    num1=int(input("enter num1:"))
+    num2=int(input("enter num2:"))
+    sum=addition(num1,num2)
+   
+    
+# executing main function  
+if __name__ == '__main__':
+    main()
+
+

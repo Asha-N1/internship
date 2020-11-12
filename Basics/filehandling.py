@@ -1,28 +1,26 @@
-# File handling in python
+# File operations 
 
-def files_handle(): # creating function
-    f = open("content.txt", "r") # opening file in read mode
-    print(f.readline())
-    print(f.read(4)) # first 4 characters from file
-    print(f.read()) # reading file
+# open file
 
-    f = open("content.txt", "a")
-    f.write("Now the file has more content!") # appending content into file
-    f.close()
+# function for file open
+# file read
+def file_open():
+    file = open("text.txt")  # opening file text.txt 
+    print(file.read()) # reading file
 
-    # open and read the file after the appending:
-    f = open("content.txt", "r")
-    print(f.read())
+# file write
+def file_write():
+    with open("content.txt", "w") as fh:  # opening file context.txt
+       print(fh.write("I love Python!!") )       
+        
 
+# main function
+def main():
+    file_open()
+    file_write()
+    
 
-    f = open("4.txt", "x") # creating file
+# executing main
+if __name__ == '__main__':
+    main()
 
-    f = open("content.txt", "w")
-    f.write("Woops! I have deleted the content!")
-    f.close()
-
-# open and read the file after the appending:
-f = open("content.txt", "r")
-print(f.read())
-
-files_handle() # calling function

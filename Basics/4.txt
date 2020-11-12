@@ -1,0 +1,15 @@
+# function for file open
+def file_open():
+    file = open("context.txt", "r") # opening file context.txt in read mode
+
+# function for write
+def file_write():
+    file = open("context.txt", "w") # opening file in write mode
+
+# main function
+def main():
+    file_open()
+    file_write()
+
+# executing main
+if __name__ == '__main__'

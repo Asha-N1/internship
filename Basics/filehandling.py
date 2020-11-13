@@ -11,13 +11,16 @@ def file_open():
 # file write
 def file_write():
     with open("content.txt", "w") as fh:  # opening file context.txt
-       print(fh.write("I love Python!!") )       
+       print(fh.write("I love Python!!") )  
+
+
         
 
 # main function
 def main():
     file_open()
     file_write()
+    
     
 
 # executing main

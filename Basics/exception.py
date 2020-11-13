@@ -1,18 +1,23 @@
 # Exception in python
 
-def exce(): # function for exception
-    a = 10
-    b = 0
+def exce(num1,num2): # function for exception
     try: # try block
-        print(a/b)
+        print(num1/num2)
     except Exception as e: # handling exception
         print("hey, you cant divided num by zero",e)
 
     finally:
 
         print("i wont consider try block and exception") # finally block
-exce() # calling function
+
  
+def main():
+    num1 = 10
+    num2 = 0
+    exce(num1,num2) # calling function
+
+if __name__ == '__main__':
+    main()
 
 
 

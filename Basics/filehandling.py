@@ -13,15 +13,10 @@ def file_write():
     with open("content.txt", "w") as fh:  # opening file context.txt
        print(fh.write("I love Python!!") )  
 
-
-        
-
 # main function
 def main():
     file_open()
-    file_write()
-    
-    
+    file_write()  
 
 # executing main
 if __name__ == '__main__':

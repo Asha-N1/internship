@@ -4,9 +4,7 @@ import datetime # importing datetime module
 
 def date_time(): # date and time function
     date_time = datetime.datetime.now() # it will display datetime with seconds mins and micro seconds
-    print(date_time)
-   # display todays day in full version
-   
+    print(date_time) # display todays day in full version
     print(date_time.strftime("%d")) # display todays date
     print(date_time.strftime("%w")) # display weekdays as numbers 0-6 sun-sat
     print(date_time.strftime("%d")) # day of month

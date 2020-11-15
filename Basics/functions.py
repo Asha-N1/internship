@@ -2,31 +2,24 @@
 def my_function(): # defining function
     print("python programs")
 
-
 # add 2 num
-def add(a,b): # defining add function with 2 arguments
-    c= a+b
-    print(c)
+def add(num1,num2): # defining add function with 2 arguments
+    addition= num1+num2
+    print(addition)
 
+# add-sub function
+def add_sub(num1,num2): # defining add function with 2 arguments
+    addition = num1+num2
+    subtraction = num1-num2
+    return addition, subtraction
 
-
-
-def add_sub(a,b): # defining add function with 2 arguments
-    c = a+b
-    d = a-b
-    return c,d
-
-
-
-
+# main function
 def main():
-    
-    a=10
-    b=20
+    num1=10
+    num2=20
     my_function() # calling function
-    add(a,b) # calling add function with 2 arguments values
- 
-    add_sub(a,b)
+    add(num1,num2) # calling add function with 2 arguments values
+    add_sub(num1,num2)
     result1,result2=add_sub(4,6) # using return we are calling function
     print(result1,result2)
 

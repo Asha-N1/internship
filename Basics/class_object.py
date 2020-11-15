@@ -3,14 +3,10 @@ class Myclass: # defining class
     def config(self): # defining config method
         print("i5,8GB,1TB")
 
-
-
-
 # another example of classes and objects
 
 class Student: # class student
     pass
-
 
 # using initialized methods
 class Stu:

@@ -5,8 +5,7 @@ def fun_arrays(vals): # creating function
     vals.reverse() # reverse an array
     vals.remove(1) # remove element from array
     vals.append(7) # adding 7 element to array
-    for i in range(5): # using for loop printing array one by one
-        print(i)
+   
 
 # main function
 def main():

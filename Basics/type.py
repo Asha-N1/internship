@@ -1,10 +1,15 @@
 # some examples to type of variable
+# main function
+def main():
+    num1 = 10
+    print(type(num1))  # int
 
-a = 10
-print(type(a))  # int
+    num2 = 20.45
+    print(type(num2))  # float
 
-b = 20.45
-print(type(b))  # float
+    num3 = "Python"
+    print(type(num3))  # string
 
-c = "Python"
-print(type(c))  # string
+# main execution
+if __name__ == '__main__':
+    main()

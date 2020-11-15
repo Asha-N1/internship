@@ -1,12 +1,11 @@
 # concatination of two strings
 def concatination(str1,str2,x): 
     print(x)# function of concatination
-     # concatination of two strings
-  
+     
+# main function 
 def main():
-     # function call
     str1 = "Welcome " # assigning string
-    str2  = "Thank you"
+    str2  = "to python"
     x = str1 + str2
     concatination(str1,str2,x)
     

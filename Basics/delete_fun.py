@@ -5,7 +5,7 @@ import os
 class Myfun:
     def delete_fun(self): # defining function 
         print("welcome to python programing")
-#del Myfun # deleting class 
+del Myfun 
 
 # delete variables, list, dictionary
 class MyClass:
@@ -16,6 +16,10 @@ class MyClass:
         print(myclass_v)
         print(my_list)
         print(my_dict)
+        del myclass_v
+        del my_list
+        del my_dict
+
 
 # delete file
 class MyFile:

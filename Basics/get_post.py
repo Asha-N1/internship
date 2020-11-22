@@ -1,4 +1,4 @@
-# get and post methods
+# get, post, put and delete methods
 
 # importing request library
 import requests

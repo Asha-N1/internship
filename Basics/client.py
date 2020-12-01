@@ -5,7 +5,7 @@ import socket
 class Client:
     def client_fun(self): # function client
         s = socket.socket()  # Create a socket object         
-        port = 12345 # Define the port on which you want to connect 
+        port = 5000 # Define the port on which you want to connect 
         s.connect(('127.0.0.1', port)) # connect to the server on local computer 
         response =  s.recv(1024) # receive data from the server 
         data=response.decode()

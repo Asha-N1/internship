@@ -8,7 +8,7 @@ class Client_Server:
     def client_Server_fun(self): # function client_server
         s = socket.socket() # socket object
         print("socket created successfully")
-        port = 5000 
+        port = 1234
         s.bind(('', port))         # bind method
         print("socket binded to %s" %(port))
         s.listen(5)   # put the socket into listening mode    
